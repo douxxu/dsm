@@ -1,0 +1,21 @@
+{
+    "name": "dsmngr",
+    "version": "1.1.7",
+    "description": "A command line systemd service manager",
+    "main": "src/DouServiceManager.js",
+    "bin": {
+      "dsm": "./src/DouServiceManager.js"
+    },
+    "scripts": {
+      "start": "node src/DouServiceManager.js -h"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/douxxu/dsm"
+    },
+    "license": "GPL-3.0-only",
+    "dependencies": {
+      "colors": "*",
+      "yargs": "*"
+    }
+  }
